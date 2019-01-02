@@ -151,7 +151,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #0250c5;
+  background: #3b5998;
   background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
   background: -o-linear-gradient(bottom, #0250c5, #d43f8d);
   background: -moz-linear-gradient(bottom, #0250c5, #d43f8d);
@@ -396,7 +396,7 @@ iframe {
 .btn-face,
 .btn-google {
   font-family: Raleway-Bold;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.2;
 
   display: -webkit-box;
@@ -407,9 +407,8 @@ iframe {
   justify-content: center;
   align-items: center;
   width: calc((100% - 10px) / 2);
-  height: 40px;
+  height: 50px;
   border-radius: 3px;
-  border: 1px solid #e6e6e6;
   background-color: #fff;
 
   -webkit-transition: all 0.4s;
@@ -426,7 +425,8 @@ iframe {
 .btn-face i {
   font-size: 20px;
   margin-right: 10px;
-  padding-bottom: 1px;
+  margin-left: 8px;
+
 }
 
 .btn-google {
