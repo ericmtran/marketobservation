@@ -3,6 +3,9 @@
 # dependencies
 /react/node_modules
 /node/node_modules
+/node/.env
+/node/.babelrc.save
+/node/package-lock.json
 
 /.pnp
 .pnp.js
