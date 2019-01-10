@@ -21,12 +21,13 @@
 		"prefix": "er",
 		"body": [
 			".catch(${1:element} => {",
-			"	console.error(${1:element}.stack)",
+			"console.error(${1:element}.stack)",
 			"})"
 		]
 	},
 	"require":{
 		"prefix":"req",
 		"body": "const ${1:element} = require('${1:element}')"
-	},
+		}
+	}	
 }
