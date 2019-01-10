@@ -1,5 +1,0 @@
-/dist
-/node_modules
-.env
-.babelrc.save
-package-lock.json
