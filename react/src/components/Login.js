@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import {Button, FormGroup, FormControl, ControlLabel, Modal, HelpBlock} from "react-bootstrap";
 import "./Login.css";
 import {Link} from 'react-router-dom';
-import './main.css';
-import './util.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
 import FacebookLogin from 'react-facebook-login';
@@ -94,10 +92,9 @@ fetch('/login', {
 // main screen
   render() {
     return (
-        <div className="limiter">
         <div className="container-login100">
         <div className="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
-        <form className="login100-form validate-form"  onSubmit={this.handleSubmit}>
+        <form className="login100-form "  onSubmit={this.handleSubmit}>
             <span className="login100-form-title p-b-55">
 						Login
 			      </span>
@@ -184,7 +181,6 @@ fetch('/login', {
           </Modal.Header>
           <Modal.Body>{this.state.loginInfo}</Modal.Body>
         </Modal>
-        </div>
         </div>
         </div>
 
