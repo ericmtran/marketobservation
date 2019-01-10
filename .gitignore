@@ -1,29 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /react/node_modules
 /node/node_modules
 
+# config
 /node/.babelrc.save
 /node/package-lock.json
-
-/.pnp
-.pnp.js
-
-# testing
-/coverage
 
 # production
 /react/build
 /node/dist
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-/node/.vscode
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# misc
+/node/.vscode
+/node/.env
+
